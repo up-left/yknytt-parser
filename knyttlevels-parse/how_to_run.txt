@@ -1,0 +1,27 @@
+Setup:
+pip3 install bs4
+
+Go to this directory:
+cd knyttlevels-parse
+
+Download pages from knyttlevels.com:
+bash download-pages.sh
+
+Generate csv from them:
+python3 parse-pages.py
+
+Select levels to download:
+- open ../knyttlevels.csv
+- change first symbol in line for levels you want to download (for example, add '+')
+
+Generate download script:
+python3 generate-download-script.py > download.sh
+
+Download levels:
+bash download.sh
+
+Go to worlds-parse:
+cd ../worlds-parse
+
+Generate worlds.csv:
+- run that project or executable in ./bin
