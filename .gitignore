@@ -3,3 +3,6 @@ pages/*
 worlds/*
 knyttlevels.csv
 worlds.csv
+worlds-parse/bin/*
+worlds-parse/obj/*
+worlds-parse/.vscode/*

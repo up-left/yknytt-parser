@@ -1,6 +1,10 @@
 Setup:
 pip3 install bs4
 
+Create empty directories:
+mkdir pages
+mkdir worlds
+
 Go to this directory:
 cd knyttlevels-parse
 
