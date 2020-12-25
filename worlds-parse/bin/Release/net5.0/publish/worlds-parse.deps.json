@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "worlds-parse/1.0.0": {
+        "dependencies": {
+          "INIFileParser": "2.5.2.0"
+        },
+        "runtime": {
+          "worlds-parse.dll": {}
+        }
+      },
+      "INIFileParser/2.5.2.0": {
+        "runtime": {
+          "INIFileParser.dll": {
+            "assemblyVersion": "2.5.2.0",
+            "fileVersion": "2.5.2.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "worlds-parse/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "INIFileParser/2.5.2.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
