@@ -4,7 +4,6 @@ using System.Text;
 using System.Collections.Generic;
 using System.Linq;
 using YKnyttLib;
-using IniParser.Model;
 using IniParser.Parser;
 
 namespace ParseWorlds
@@ -64,7 +63,7 @@ namespace ParseWorlds
                     if (key.KeyName.StartsWith("Category") && key.Value.Length > 0) { categories.Add(key.Value); }
                 }
 
-                string[] cells = {filename, name, author, 
+                string[] cells = {"http://knyttlevels.com/levels/" + Uri.EscapeUriString(filename), name, author, 
                                   size, String.Join(';', difficulties), String.Join(';', categories), 
                                   format, new FileInfo(fname).Length.ToString(), description,
                                   icon != null ? Convert.ToBase64String(icon) : ""};
