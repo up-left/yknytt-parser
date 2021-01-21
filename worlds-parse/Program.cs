@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using System.IO.Compression;
 using System.Text;
 using System.Collections.Generic;
 using System.Linq;
@@ -30,6 +31,17 @@ namespace ParseWorlds
             return str;
         }
 
+        private static byte[] compress(byte[] file)
+        {
+            var output = new MemoryStream();
+            using (var gzip = new GZipStream(output, CompressionMode.Compress))
+            {
+                new MemoryStream(file).CopyTo(gzip);
+            }
+            var result = output.ToArray();
+            return result.Length > file.Length ? file : result;
+        }
+
         static void Main(string[] args)
         {
             using System.IO.StreamWriter csvfile = new System.IO.StreamWriter("../worlds.csv");
@@ -46,6 +58,7 @@ namespace ParseWorlds
                 ini_parser.Configuration.AllowDuplicateKeys = true;
                 ini_parser.Configuration.AllowDuplicateSections = true;
                 ini_parser.Configuration.SkipInvalidLines = true;
+                ini_parser.Configuration.CaseInsensitive = true;
                 var ini = ini_parser.Parse(content);
 
                 var filename = Path.GetFileName(fname);
@@ -59,14 +72,42 @@ namespace ParseWorlds
                 var categories = new HashSet<String>();
                 foreach (var key in ini["World"])
                 {
-                    if (key.KeyName.StartsWith("Difficulty") && key.Value.Length > 0) { difficulties.Add(key.Value); }
-                    if (key.KeyName.StartsWith("Category") && key.Value.Length > 0) { categories.Add(key.Value); }
+                    if (key.KeyName.ToLower().StartsWith("difficulty") && key.Value.Length > 0) { difficulties.Add(key.Value); }
+                    if (key.KeyName.ToLower().StartsWith("category") && key.Value.Length > 0) { categories.Add(key.Value); }
                 }
+
+                HashSet<string> endings = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
+                HashSet<string> cutscenes = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
+                foreach (var section in ini.Sections)
+                {
+                    if (!section.SectionName.ToLower().StartsWith('x')) { continue; }
+
+                    if (section.Keys.ContainsKey("Ending"))
+                    {
+                        var ending = section.Keys["Ending"];
+                        if (world.GetFile($"{ending}/scene1.png") != null)
+                        {
+                            endings.Add(section.Keys["Ending"]);
+                        }
+                    }
+
+                    foreach (var key in section.Keys)
+                    {
+                        if (key.KeyName.ToLower().StartsWith("shiftcutscene") && 
+                            key.Value.ToLower() != "ending" &&
+                            world.GetFile($"{key.Value}/scene1.png") != null)
+                        {
+                            cutscenes.Add(key.Value);
+                        }
+                    }
+                }
+                if (world.GetFile("ending/scene1.png") != null) { endings.Add("Ending"); }
 
                 string[] cells = {"http://knyttlevels.com/levels/" + Uri.EscapeUriString(filename), name, author, 
                                   size, String.Join(';', difficulties), String.Join(';', categories), 
                                   format, new FileInfo(fname).Length.ToString(), description,
-                                  icon != null ? Convert.ToBase64String(icon) : ""};
+                                  String.Join(';', endings), String.Join(';', cutscenes),
+                                  icon != null ? Convert.ToBase64String(compress(icon)) : ""};
                 csvfile.WriteLine(String.Join(',', cells.Select(cell => StringToCSVCell(cell))));
             }
             Console.WriteLine("Done.");
