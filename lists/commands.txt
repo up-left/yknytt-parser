@@ -1,0 +1,9 @@
+heroku run python manage.py shell
+from main.models import *
+for lvl in Level.objects.all(): print(lvl.name)
+# copy to exclude.txt
+
+sort -f *playlist*.names.txt| grep -Fvx -f exclude.txt | uniq -i --count | sort -nr
+sort -f *.names.txt| grep -Fvx -f exclude.txt | uniq -i --count | sort -nr
+sort -f knytt_stories_forums2.names.txt| grep -Fvx -f exclude.txt | uniq -i --count | sort -nr
+sort -f knytt_stories_forums.names.txt| grep -Fvx -f exclude.txt | uniq -i --count | sort -nr
