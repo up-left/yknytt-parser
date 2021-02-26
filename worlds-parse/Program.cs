@@ -4,6 +4,7 @@ using System.IO.Compression;
 using System.Text;
 using System.Collections.Generic;
 using System.Linq;
+using System.Diagnostics;
 using YKnyttLib;
 using IniParser.Parser;
 
@@ -103,11 +104,29 @@ namespace ParseWorlds
                 }
                 if (world.GetFile("ending/scene1.png") != null) { endings.Add("Ending"); }
 
+                using MemoryStream ms = new MemoryStream();
+                if (icon != null)
+                {
+                    ProcessStartInfo startInfo = new ProcessStartInfo();
+                    startInfo.UseShellExecute = false;
+                    startInfo.RedirectStandardInput = true;
+                    startInfo.RedirectStandardOutput = true;
+                    startInfo.FileName = "/usr/bin/pngquant";
+                    startInfo.Arguments = "--quality 40-80 -";
+
+                    Process process = new Process();
+                    process.StartInfo = startInfo;
+                    process.Start();
+
+                    process.StandardInput.BaseStream.Write(icon);
+                    process.StandardOutput.BaseStream.CopyTo(ms);
+                }
+
                 string[] cells = {"http://knyttlevels.com/levels/" + Uri.EscapeUriString(filename), name, author, 
                                   size, String.Join(';', difficulties), String.Join(';', categories), 
                                   format, new FileInfo(fname).Length.ToString(), description,
                                   String.Join(';', endings), String.Join(';', cutscenes),
-                                  icon != null ? Convert.ToBase64String(compress(icon)) : ""};
+                                  icon != null ? Convert.ToBase64String(compress(ms.ToArray())) : ""};
                 csvfile.WriteLine(String.Join(',', cells.Select(cell => StringToCSVCell(cell))));
             }
             Console.WriteLine("Done.");
