@@ -102,7 +102,11 @@ namespace ParseWorlds
                         }
                     }
                 }
-                if (world.GetFile("ending/scene1.png") != null) { endings.Add("Ending"); }
+                if (world.GetFile("ending/scene1.png") != null && 
+                    !(world.GetFileSize("ending/scene1.png") == 3655 && world.GetFile("ending/scene2.png") == null))
+                {
+                    endings.Add("Ending");
+                }
 
                 using MemoryStream ms = new MemoryStream();
                 if (icon != null)
