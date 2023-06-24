@@ -126,7 +126,7 @@ namespace ParseWorlds
                     process.StandardOutput.BaseStream.CopyTo(ms);
                 }
 
-                string[] cells = {"http://knyttlevels.com/levels/" + Uri.EscapeUriString(filename), name, author, 
+                string[] cells = {"https://knyttlevels.com/levels/" + Uri.EscapeUriString(filename), name, author, 
                                   size, String.Join(';', difficulties), String.Join(';', categories), 
                                   format, new FileInfo(fname).Length.ToString(), description,
                                   String.Join(';', endings), String.Join(';', cutscenes),
