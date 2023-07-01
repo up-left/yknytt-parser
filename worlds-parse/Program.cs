@@ -14,6 +14,7 @@ namespace ParseWorlds
     {
         public static string StringToCSVCell(string str)
         {
+            if (str == null) { return ""; }
             bool mustQuote = (str.Contains(",") || str.Contains("\"") || str.Contains("\r") || str.Contains("\n"));
             if (mustQuote)
             {
@@ -48,11 +49,20 @@ namespace ParseWorlds
             using System.IO.StreamWriter csvfile = new System.IO.StreamWriter("../worlds.csv");
             foreach (var fname in Directory.GetFiles("../worlds/"))
             {
+                if (!fname.EndsWith(".knytt.bin")) { continue; }
                 Console.WriteLine($"Processing {fname}");
 
                 using var f = File.Open(fname, FileMode.Open);
                 var world = new KnyttBinWorldLoader(f);
+
                 var icon = world.GetFile("Icon.png");
+                if (File.Exists(fname + ".png"))
+                {
+                    using var f_icon = File.Open(fname + ".png", FileMode.Open);
+                    icon = new byte[new FileInfo(fname + ".png").Length];
+                    f_icon.Read(icon, 0, icon.Length);
+                }
+
                 var buffer = world.GetFile("World.ini");
                 var content = new ASCIIEncoding().GetString(buffer, 0, buffer.Length);
                 var ini_parser = new IniDataParser();
