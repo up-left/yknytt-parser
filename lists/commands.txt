@@ -10,3 +10,5 @@ sort -f knytt_stories_forums.names.txt| grep -Fvxi -f exclude.txt | uniq -i --co
 cat knytt_stories_forums3.views.names.txt | grep -Fvxi -f exclude.txt
 
 cat knytt-playlist5.names.txt | grep -Fvxi -f exclude.txt | sed -e 's/$/,/' -e 's/^/,/' | grep -f - ../knyttlevels.csv | sed -e 's/^/\+/' > ../knyttlevels-pl.csv
+
+sort -f *.names.txt| grep -Fvxi -f exclude.txt | uniq -id --count | grep -f not_found.txt | sort -r
