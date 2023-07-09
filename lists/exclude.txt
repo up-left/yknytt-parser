@@ -1,247 +1,3 @@
-Sunset
-lost
-One Screen Puzzle
-snow
-The Strange Ship
-Exploring
-Thankshiving
-EndLoop
-FrOoDlYoGeNs
-Dream
-Stone Tiers
-December 24th
-Temple of Death
-Grand Challenge
-Mega Mario Adventures
-Missing
-Sahara
-Knutty
-9 Boring Levels
-Advena
-The Four Keys
-THE Cave
-Christmas
-Lunatic
-An Evening Stroll
-Mission Delta
-Puffle
-The Alchemist
-Psychedelic Adventure
-To Travel so Far
-Upper Levels
-Vengeance
-Hippopotomus
-Zluty klic
-Big Tree
-Up Up and Away
-AzureSerenity VanillaLite
-Temple of azulan
-Logic
-Summer and winter
-Christmas At Knytt
-sky flower XH
-Pointless
-Winter Solace
-The White Spire
-What happened next
-Divine Holy Platformer
-sooch story
-hello
-Knyttoid
-3D Quest
-The Updown Journey
-Seaweed
-Maze
-Back to Bluetown
-Jumpy
-Late to the party
-Vleindergurk
-The Broken Dike
-Paradise Last
-The Keeper of Dreams
-last of the salad days
-Miss Pixel!
-Devil's Triangle
-A simple task
-Let it Snow
-Fallen out of the Sky
-My Explorer
-Above the Clouds
-The Strange Deep Forest
-Ghost Land
-Sunshire
-Knytt's Edge
-Switcheroo
-Compare and Contrast
-Night SE
-LPChip Hooray Fun Time
-Soaring Star Reverie
-Climb for your life
-Another Journey
-Red palace
-Night
-Flipping Out
-Juni's Checkered Past
-Tomatoes! Gaiden
-Not Poetic At All
-Splinter
-Starlight
-One Screen Puzzle 4
-Petals II
-The Gens' venture
-The Snow Day
-Strolling Simulator Pro
-system failure
-Planet Dragonia
-The Mine
-Bitter Liver
-Generic Level
-Monsters
-Shalev
-Caged In
-The crazy scientist
-Talps vs. Vegetal Gibber
-Badly Built Level
-Reduction
-Monocrome
-Super Corner Checker
-A Very Knytt Christmas
-Take the Eyeball
-Emerald Sanctuary
-Nightmare
-Speed Man's World
-Pink Juni
-Maelstrom
-World Fantastic
-Red Flower
-Parasite Trilogy: When we're dead
-Seiklus
-Tomatoes!
-Run the Gauntlet Prologue
-Blue House
-Illusion
-Caverns Monotony
-The Zegend of Lelda
-Adventure IX
-Paradox
-Depression Quest
-Return to Riku Island
-Reason
-Maze of Despair
-Much Ado
-Liquid soap
-Quarantine
-The Sky's Falling
-Illusion
-Juni's Winter Wonderland
-One Screen Puzzle 2
-A Kick In the Nuts
-Hypoxia
-Im not a mad Scientist
-Tower of Babylon
-lost 1.0
-Impossible
-Hostile landscape
-Laserslinger
-Morning Stroll
-The lab of cliche
-Romance
-Spectrum
-The Eye of the World
-A Jungle Out There
-Run
-Reason
-The floor is lava!
-Imprisonment
-Nightmare
-Dark City
-Dark Sky of Wish Mountain 50 GC
-Letters
-Where the red plants grow
-The Harsh Winter
-One Screen Puzzle 5
-Exploring a cave
-Woji Valley
-Starwalk
-Gustav's Visit
-New Knytt City
-My Friend Jerry
-This Is Not A Level
-Umbrella Ride
-Death III
-Impossible
-The Sound of Snow
-Raining
-Gyffes
-Super Knytt World Part 1
-At Land
-Normal Day for Juni
-Fishy
-A level for knyttwytts
-An Impeccable Cat Hunt
-Xorons
-Retrieval
-Puffle...
-Oh Man Go Time
-Probability Laser
-Dragon Myth
-Knytt Garden
-They Cry Out
-Knytt Syndromes
-Within the Treetops
-Morass
-Dimension 507
-Xeia
-Wasteland
-Cinnamon Chocolate
-By the Road of Dreams
-Invisable Coin
-Nameless
-Little Juni's Quest
-Great art
-Nexus
-One Screen Puzzle
-Volcano God
-Bread World
-Knytt Metaverse
-Blacklight
-Monsters
-The CGA Temple
-Sunset
-Nectar
-Aurian Quest
-Super Knytt Bros
-Nightmare
-Warzone
-Get focus
-One Screen Puzzle 3
-The Great Knytt Tree
-Summer with the Indians
-WARZONE
-Fifty Golden Creatures
-Level 5
-Snowflake
-Eggs
-Choice
-The little bonus room
-The Golden Pyramid
-The Bluebird of Happiness
-Climb
-Homeland
-Chasm
-The Dithered Temple
-Kill Kitler!
-Underground house
-Lone traveler
-This Is Not Thirty Levels
-level
-The Disappearance
-Oxi
-Zepsiman
-Amnesia
-Regina's Adventure
-BVB
-Race to the Pumpkin Patch
 Chamber of Trials
 Gustav's son
 The Mysterious Grotto
@@ -258,7 +14,6 @@ Dark Sea
 Mashu Prapa
 Temp IV
 Blockland
-Saving Thalanill
 Rainfall
 Temp III
 Strafe
@@ -280,10 +35,8 @@ Falling
 The world is changing
 Temp
 The tower of Lightning
-The Other Side
 My Super Secret Basement
 Vanilla
-THE WORLD
 A Strange Dream
 Above and below...
 Illiris
@@ -299,7 +52,6 @@ Vague Feeling
 Dark Sea 2
 Jumping in the Rain
 Throwback
-Cliff Hanger
 Outer Reaches
 I Chased the Moon
 Kavez
@@ -323,8 +75,6 @@ The Life Ruby
 Don't Eat the Mushroom
 Pestilence
 The Explore Challenge
-Knyzarro
-Lost in the storm
 A Walk in Sad
 Adventures in the Void
 Organac
@@ -333,7 +83,7 @@ Tutorial
 Gustav's Daughter
 Luminous City
 Gaia
-The Tower of Lightning
+TheTower of LightningEASY
 Frozen Mountain
 Diminishing Resource
 A Strange Dream
@@ -342,7 +92,6 @@ Timecraft
 Doden Vantar
 Reverie
 Change the view!
-Exquisite Knorpse 2
 Curse of the Catacombs
 Spiral
 A Day at the Beach
@@ -362,10 +111,8 @@ Riku Island
 Do not Pick up the Key
 Upwards Sky
 Realms of the Pharaoh
-Red
 Night 2
 Too much Soda
-Scrolly Polly
 the forever-rain
 Exploring the Golden Land
 Shipwrecked
@@ -375,7 +122,6 @@ Recurtis
 The Dying Core
 Salvation
 Coldmist Mountain
-Journey to the Golden Land
 Looking for Flynnas
 Sky Flower
 Grim
@@ -391,13 +137,10 @@ Game of Depressions
 Wild Knytt
 9 days
 Caverns 2
-Jerom
-Aperture Science
 Monocromatica Grotta
 The Gate of FourKey
 Plotless
 Rain
-Don't Stop Running!
 Remembering the City
 Escape from Knyttstein
 For egomassive
@@ -417,7 +160,6 @@ caverns
 Pure Pulse Adventure
 Scarlet Tears
 A Walk at Night
-Starlight
 Save the high jump!
 Falling Water
 Petals of a Dying Flower
@@ -427,6 +169,315 @@ Well of White Waters
 Underground
 Parkour
 Frozen Forest
+Endless Time
+lost
+The lab of cliche
+One Screen Puzzle
+snow
+The Strange Ship
+Exploring
+Thankshiving
+Starlight
+FrOoDlYoGeNs
+Dream
+Eno
+December 24th
+Reduction
+Grand Challenge
+Red palace
+Mega Mario Adventures
+Let it Snow
+Missing
+Escape From Dark Castle
+Sahara
+Knutty
+Advena
+The Room Ov Death
+Christmas
+Mission Delta
+The Alchemist
+In the Sewer...
+To Travel so Far
+Four Square
+Jerom
+Upper Levels
+How the Seasons Change
+Hippopotomus
+Above the Clouds
+Awful Mountain Restaurant
+Big Tree
+Up Up and Away
+AzureSerenity VanillaLite
+Temple of azulan
+Lone traveler
+A Snowman!
+THE RECKOMING
+Logic
+Summer and winter
+Lunatic
+Christmas At Knytt
+sky flower XH
+Pointless
+hello
+last of the salad days
+I'm so cold...
+Winter Solace
+The White Spire
+Stone Tiers
+What happened next
+Divine Holy Platformer
+sooch story
+Knyttoid
+3D Quest
+The Updown Journey
+Seaweed
+Maze v2.0
+Back to Bluetown
+Jumpy
+Late to the party
+Vleindergurk
+The Legend of Sanktoh 2
+Paradise Last
+The Keeper of Dreams
+Miss Pixel!
+Snowy Island
+Devil's Triangle
+A simple task
+Fallen out of the Sky
+The Snow Day
+My Explorer
+Sunshire
+Knytt's Edge
+Fifty Golden Creatures
+ayo
+Switcheroo
+Night SE
+Temple of Death
+LPChip Hooray Fun Time
+Soaring Star Reverie
+You Have to Put the Level
+Another Journey
+go figure
+EndLoop
+Night
+Flipping Out
+Juni's Checkered Past
+Tomatoes! Gaiden
+The Dark witch
+Red
+The Five Minute Hallway
+A Psychedelic Adventure
+Not Poetic At All
+Splinter
+One Screen Puzzle 4
+Petals II
+The Gens' venture
+Strolling Simulator Pro
+Zepsiman
+Christmas present
+nice walk
+system failure
+Planet Dragonia
+Bitter Liver
+Generic Level
+Monsters
+Shalev
+Caged In
+The crazy scientist
+Talps vs. Vegetal Gibber
+Badly Built Level
+The little bonus room
+Something with snow
+Seiklus
+Pump It!Chill Out
+Monocrome
+Super Corner Checker
+An Evening Stroll
+A Very Knytt Christmas
+Take the Eyeball
+Emerald Sanctuary
+Nightmare
+Aperture Science
+Speed Man's World
+Pink Juni
+Maelstrom
+World Fantastic
+Red Flower
+Parasite Trilogy: When we're dead
+Old Man's Lighthouse
+Tomatoes!
+Run the Gauntlet Prologue
+Blue House
+Amidst The Clouds
+Illusion
+Caverns Monotony
+The Zegend of Lelda
+Cliff Hanger
+Walk in...
+God's Realm
+Paradox
+The sky castle
+Depression Quest
+Return to Riku Island
+Reason
+Maze of Despair
+Liquid soap
+Quarantine
+Ghost Land
+Illusion
+Juni's Journey
+Lost in the storm
+Juni's Winter Wonderland
+One Screen Puzzle 2
+Exquisite Knorpse 2
+A Kick In the Nuts
+Hypoxia
+The Four Keys
+Tower of Babylon
+The Mine
+Three Square
+Let me take you to the beach
+lost 1.0
+Impossible
+Hostile landscape
+Laserslinger
+Morning Stroll
+The Healer
+The Valley of 4 keys
+Romance
+Spectrum
+The Eye of the World
+Uno
+THE Cave
+A Jungle Out There
+Run
+Reason
+Woji Valley
+Square
+The floor is lava!
+Sahara
+Imprisonment
+Nightmare
+Dark City
+Much Ado
+Dark Sky of Wish Mountain 50 GC
+Don't Stop Running!
+Letters
+9 Boring Levels
+Where the red plants grow
+The Harsh Winter
+One Screen Puzzle 5
+Exploring a cave
+Starwalk
+Gustav's Visit
+New Knytt City
+Juni Jones: Ace Attorney
+The Other Side
+My Friend Jerry
+Vengeance
+This Is Not A Level
+Umbrella Ride
+New Knytt City Retour
+Death III
+Impossible
+The Sound of Snow
+Raining
+Saving Thalanill
+Milk's Quest
+Endless Dream
+Gyffes
+Knytt Metaverse
+Adventure IX
+Knyzarro
+Super Knytt World Part 1
+Shoot For The Moon!
+At Land
+Normal Day for Juni
+Across the lake
+The lava caves
+Fishy
+Absolute Machination
+A level for knyttwytts
+An Impeccable Cat Hunt
+Xorons
+Blah
+Retrieval
+Oh Man Go Time
+Probability Laser
+Dragon Myth
+Knytt Garden
+They Cry Out
+Puffle...
+Venice Issue
+Knytt Syndromes
+Within the Treetops
+Morass
+Dimension 507
+Vermicelli's Lobby
+Xeia
+Wasteland
+Swept Away
+Prison Break
+Cinnamon Chocolate
+Holo
+By the Road of Dreams
+Invisable Coin
+Nameless
+Little Juni's Quest
+Great art
+Nexus
+Yellow key
+One Screen Puzzle
+Volcano God
+Bread World
+THE WORLD FINAL VERSION
+Blacklight
+Monsters
+The CGA Temple
+Sunset
+Get focus
+Im not a mad Scientist
+Sunset
+Nectar
+Aurian Quest
+Super Knytt Bros
+Jump-Whoops-Poof
+Nightmare
+Warzone
+The Sky's Falling
+Time Fixes Everything
+One Screen Puzzle 3
+The Great Knytt Tree
+Summer with the Indians
+WARZONE
+Escape the Spikes
+Level 5
+Snowflake
+Eggs
+Compare and Contrast
+Choice
+The Broken Dike
+The Golden Pyramid
+Underground of DeepForest
+The Bluebird of Happiness
+Climb
+Homeland
+Climb for your life
+Chasm
+The Dithered Temple
+Kill Kitler!
+Underground house
+Lone traveler
+The Strange Deep Forest
+This Is Not Thirty Levels
+level
+Scrolly Polly
+The Disappearance
+Oxi
+Amnesia
+Regina's Adventure
+BVB
+Race to the Pumpkin Patch
 Azure Serenity
 Through the Swamp
 Capitalism 2
@@ -502,72 +553,3 @@ The Tiny World
 Core
 The Column
 Dungeon
-
-Strange Ship
-Four Keys
-Alchemist
-White Spire
-Updown Journey
-Broken Dike
-Keeper of Dreams
-Strange Deep Forest
-Gens' venture
-Snow Day
-Mine
-crazy scientist
-Zegend of Lelda
-Sky's Falling
-lab of cliche
-Eye of the World
-floor is lava!
-Harsh Winter
-Sound of Snow
-CGA Temple
-Great Knytt Tree
-little bonus room
-Golden Pyramid
-Bluebird of Happiness
-Dithered Temple
-Disappearance
-Mysterious Grotto
-Tree of Life
-Machine
-world is changing
-tower of Lightning
-Other Side
-fathers son
-Life Ruby
-Explore Challenge
-White Elephant
-Tower of Lightning
-Dream
-Phantom Apparatus
-Little Gothic Doll
-Cursed Gallery
-Five Lands
-Dying Core
-Coming Dark
-ascent to death
-Seashell
-Gate of FourKey
-Storm's Coming
-Greying Tower
-Tower of Joy
-Valley
-Great Race
-Portable TimeWarp
-Midnight Whisker
-Hunt
-Cursed House
-World Below
-Oubliette
-Forgotten Tower SE
-Extinct Bird
-Return
-End of Paradise
-Underground City
-Parallel Cat
-Lighthouse
-Outsider
-Tiny World
-Column
