@@ -54,6 +54,7 @@ Christmas At Knytt
 Christmas present
 Cinnamon Chocolate
 Cliff Hanger
+Code Conundrum
 Coldmist Mountain
 Colors
 Common Problems
@@ -139,6 +140,7 @@ House Key
 How the Seasons Change
 Hypnagogia
 Iaryl
+Iasthai
 I Chased the Moon
 I don't know what I'm doing
 I Dreamed of the Sky
@@ -171,7 +173,6 @@ Let It Consume You (demo)
 Let it Snow
 Let me take you to the beach
 level
-Level
 LEVEL1
 Level Design
 LG-28
@@ -183,9 +184,12 @@ lost
 LPChip Hooray Fun Time
 Luminous City
 Maelstrom
+Maintenance
+Many islands
 Marine
 Maze
 Maze of Despair
+Mezzo Rianna
 Milk's Quest
 Miners' Territory
 Missed secret in Regina's Adventure
@@ -247,12 +251,12 @@ Recurtis
 Red
 Red Flower
 Red palace
-Red Palace
 Reduction
 Regina's Adventure
 Remembering the City
 Remembrance
 Reverie
+Ride the Train to Beck
 Rock Bottom
 Rookie Run
 Run
@@ -286,11 +290,13 @@ Spiral
 Sputzna beta
 Square
 Squareman's Adventure
+Starwalk
 Station 07
 Steamed Hams but it's The Machine, But...
 Steel Flower
 Stone Tiers
 Strolling Simulator Pro
+Stupidly Hard Jump
 Summer and winter
 Summer with the Indians
 Sunshire
@@ -350,6 +356,7 @@ The Little Gothic Doll
 The Machine
 The Machine intended%
 The Machine.iso
+The Mysterious Grotto
 The Other Side
 The Oubliette
 The Outsider

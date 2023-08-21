@@ -1,7 +1,7 @@
 knyttlevels-parse/download.sh
 pages/*
 worlds/*
-worlds-egomassive/*
+worlds-*/*
 knyttlevels.csv
 worlds*.csv
 worlds-parse/bin/Debug/*

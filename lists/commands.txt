@@ -3,12 +3,14 @@ from main.models import *
 for lvl in Level.objects.all(): print(lvl.name)
 # copy to exclude.txt
 
-sort -f *playlist*.names.txt| grep -Fvxi -f exclude.txt | uniq -i --count | sort -nr
 sort -f *.names.txt| grep -Fvxi -f exclude.txt | uniq -i --count | sort -nr
-sort -f knytt_stories_forums2.names.txt| grep -Fvxi -f exclude.txt | uniq -i --count | sort -nr
-sort -f knytt_stories_forums.names.txt| grep -Fvxi -f exclude.txt | uniq -i --count | sort -nr
-cat knytt_stories_forums3.views.names.txt | grep -Fvxi -f exclude.txt
 
-cat knytt-playlist5.names.txt | grep -Fvxi -f exclude.txt | sed -e 's/$/,/' -e 's/^/,/' | grep -f - ../knyttlevels.csv | sed -e 's/^/\+/' > ../knyttlevels-pl.csv
+cat forums.pacifishi-a-c.names.txt | grep -Fvxi -f exclude.txt | sed -e 's/$/,/' -e 's/^/,/' | grep -f - ../knyttlevels.csv | sed -e 's/^/\+/' > ../knyttlevels-pl.csv
 
 sort -f *.names.txt| grep -Fvxi -f exclude.txt | uniq -id --count | grep -f not_found.txt | sort -r
+
+cat exclude.txt | grep -xi -f forums.pacifishi-f-na.txt | wc -l
+
+grep -Hni "zrackreave" *.*names.txt
+
+cat ../worlds.csv | sed -e 's/.*knytt.bin,//' -e 's/,.*//' > exclude.txt

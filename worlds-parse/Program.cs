@@ -136,8 +136,9 @@ namespace ParseWorlds
                     process.StandardOutput.BaseStream.CopyTo(ms);
                 }
 
-                string[] cells = {"https://knyttlevels.com/levels/" + Uri.EscapeUriString(filename), name, author, 
-                                  size, String.Join(';', difficulties), String.Join(';', categories), 
+                string[] cells = {"https://yknytt-levels-1.s3.eu-central-1.amazonaws.com/" + 
+                                  Uri.EscapeUriString(filename.Replace(' ', '+')), 
+                                  name, author, size, String.Join(';', difficulties), String.Join(';', categories), 
                                   format, new FileInfo(fname).Length.ToString(), description,
                                   String.Join(';', endings), String.Join(';', cutscenes),
                                   icon != null ? Convert.ToBase64String(compress(ms.ToArray())) : ""};
