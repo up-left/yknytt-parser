@@ -70,6 +70,7 @@ namespace ParseWorlds
                 ini_parser.Configuration.AllowDuplicateSections = true;
                 ini_parser.Configuration.SkipInvalidLines = true;
                 ini_parser.Configuration.CaseInsensitive = true;
+                ini_parser.Configuration.OverrideDuplicateKeys = true;
                 var ini = ini_parser.Parse(content);
 
                 var filename = Path.GetFileName(fname);
