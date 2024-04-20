@@ -13,4 +13,6 @@ cat exclude.txt | grep -xi -f forums.pacifishi-f-na.txt | wc -l
 
 grep -Hni "zrackreave" *.*names.txt
 
+while IFS= read -r line; do printf "$line %s\n" $(grep -Hni "$line" lists/*.*names.txt | wc -l); done <d.txt
+
 cat ../worlds.csv | sed -e 's/.*knytt.bin,//' -e 's/,.*//' > exclude.txt
