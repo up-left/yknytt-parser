@@ -1,7 +1,7 @@
 ixMarcel|Saving Thalanill|Spectacular
 Vegetal Gibber|The Dithered Temple|Spectacular
 Ultigonio|Deep Freeze|Spectacular
-SecretGlitch|Dark Sea 2|Spectacular
+SecretGlitch|Dark Sea 2 v1.1|Spectacular
 Nifforum|LPChip Hooray Fun Time|Spectacular
 Vegetal Gibber|Forgotten Realms|Spectacular
 Talps|Petals II|Spectacular
@@ -30,7 +30,6 @@ Purple Pineapple|One Screen Puzzle 4|Excellent
 Harumbai|Temple of Death|Excellent
 egomassive|The Dying Core|Excellent
 Ultigonio & Pfrangip|Morning Stroll|Excellent
-Talps|Petals of a Dying Flower 1.1|Excellent
 LewisWolke|The Harsh Winter|Excellent
 Vegetal Gibber|The White Spire|Excellent
 Johnny|Paradise Last|Excellent
@@ -54,7 +53,7 @@ Jigganis|The Seashell|Great
 SecretGlitch|Amidst The Clouds|Great
 Adam C|Nexus|Great
 Purple Pineapple|One Screen Puzzle 5|Great
-Pentavo Mapmaker|An Evening Stroll [v4]|Great
+Pentavo Mapmaker|An Evening Stroll|Great
 pfrangip|One Epic Screen|Great
 DaveGermainGames|Enemy Mine|Great
 Dima STDN|Miners' Territory|Great
