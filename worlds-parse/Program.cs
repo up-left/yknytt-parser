@@ -64,7 +64,7 @@ namespace ParseWorlds
                 }
 
                 var buffer = world.GetFile("World.ini");
-                var content = new ASCIIEncoding().GetString(buffer, 0, buffer.Length);
+                var content = Encoding.GetEncoding(1252).GetString(buffer, 0, buffer.Length);
                 var ini_parser = new IniDataParser();
                 ini_parser.Configuration.AllowDuplicateKeys = true;
                 ini_parser.Configuration.AllowDuplicateSections = true;
